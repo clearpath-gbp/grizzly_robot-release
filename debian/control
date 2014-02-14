@@ -1,0 +1,12 @@
+Source: ros-hydro-grizzly-base
+Section: misc
+Priority: extra
+Maintainer: Prasenjit Mukherjee <pmukherj@clearpathrobotics.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-diagnostic-updater, ros-hydro-geometry-msgs, ros-hydro-grizzly-msgs, ros-hydro-roboteq-msgs, ros-hydro-roscpp, ros-hydro-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-grizzly-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-diagnostic-updater, ros-hydro-geometry-msgs, ros-hydro-grizzly-msgs, ros-hydro-roboteq-msgs, ros-hydro-rospy, ros-hydro-std-msgs, ros-hydro-tf
+Description: Package contains C++ and Python nodes which make up the low level interface to the motor drivers, thermal management, and power system on board Grizzly.
