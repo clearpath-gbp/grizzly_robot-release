@@ -1,8 +1,0 @@
-ros-hydro-grizzly-robot (0.1.0-0quantal) quantal; urgency=high
-
-  * Add robot metapackage.
-  * Contributors: Mike Purvis
-
- -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 14 Feb 2014 05:00:00 -0000
-
-
