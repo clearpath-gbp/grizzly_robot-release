@@ -1,0 +1,18 @@
+ros-hydro-grizzly-bringup (0.1.1-0raring) raring; urgency=high
+
+  * Add robot_pose_ekf as dependency
+  * Add diagnostic_aggregator and enu dependencies
+  * Add description and teleop
+  * Add robot_upstart as dependency.
+  * Contributors: Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Tue, 25 Feb 2014 05:00:00 -0000
+
+ros-hydro-grizzly-bringup (0.1.0-0raring) raring; urgency=high
+
+  * Initial Hydro release.
+  * Contributors: Mike Irvine, Mike Purvis, Prasenjit Mukherjee, Ryan Gariepy
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 14 Feb 2014 05:00:00 -0000
+
+
