@@ -1,3 +1,25 @@
+## grizzly_robot (hydro) - 0.1.1-0
+
+User `administrator@cpr-syd03-base` released the packages in the `grizzly_robot` repository into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --rosdistro hydro grizzly_robot` on `Wed, 26 Feb 2014 02:18:35 -0000`
+
+These packages were released:
+- `grizzly_base`
+- `grizzly_bringup`
+- `grizzly_robot`
+
+Version of package(s) in repository `grizzly_robot`:
+- rosdistro version: `null`
+- old version: `0.1.0-0`
+- new version: `0.1.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.1`
+- catkin_pkg version: `0.1.26`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.33`
+
+
 ## grizzly_robot - 0.1.0-0
 
 User `administrator@vm-precise` released the packages in the `grizzly_robot` repository by running `/usr/bin/bloom-release --track hydro --rosdistro hydro grizzly_robot --new-track` on `Fri, 14 Feb 2014 21:48:17 -0000`
