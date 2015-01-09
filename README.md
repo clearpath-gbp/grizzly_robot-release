@@ -1,3 +1,27 @@
+## grizzly_robot (indigo) - 0.2.0-0
+
+The packages in the `grizzly_robot` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo grizzly_robot --new-track` on `Fri, 09 Jan 2015 19:17:10 -0000`
+
+These packages were released:
+- `grizzly_base`
+- `grizzly_bringup`
+- `grizzly_robot`
+
+Version of package(s) in repository `grizzly_robot`:
+- upstream repository: https://github.com/g/grizzly_robot.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## grizzly_robot (hydro) - 0.1.1-0
 
 User `administrator@cpr-syd03-base` released the packages in the `grizzly_robot` repository into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --rosdistro hydro grizzly_robot` on `Wed, 26 Feb 2014 02:18:35 -0000`
