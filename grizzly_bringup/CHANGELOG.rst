@@ -2,6 +2,9 @@
 Changelog for package grizzly_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2015-10-17)
+------------------
+
 0.2.0 (2015-01-09)
 ------------------
 * Update dependencies, new-style install script.
