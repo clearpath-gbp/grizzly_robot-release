@@ -1,27 +1,32 @@
-<package>
+<?xml version="1.0"?>
+<package format="2">
   <name>grizzly_bringup</name>
-  <version>0.2.1</version>
-  <description>
-    Upstart setup and launch files for non-simulated Grizzly 
-  </description>
-  <maintainer email="mpurvis@clearpathrobotics.com">Mike Purvis</maintainer>
+  <version>0.3.0</version>
+  <description>Scripts for installing Grizzly's robot software.</description>
+
+  <author email="mpurvis@clearpathrobotics.com">Mike Purvis</author>
+
+  <maintainer email="tbaltovski@clearpathrobotics.com">Tony Baltovski</maintainer>
+
   <license>BSD</license>
 
+  <url type="website">http://wiki.ros.org/Robots/Grizzly</url>
+
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>diagnostic_aggregator</run_depend>
-  <run_depend>grizzly_base</run_depend>
-  <run_depend>grizzly_description</run_depend>
-  <run_depend>grizzly_motion</run_depend>
-  <run_depend>grizzly_navigation</run_depend>
-  <run_depend>grizzly_teleop</run_depend>
-  <run_depend>nmea_comms</run_depend>
-  <run_depend>nmea_navsat_driver</run_depend>
-  <run_depend>roboteq_driver</run_depend>
-  <run_depend>robot_upstart</run_depend>
-  <run_depend>rospy</run_depend>
-  <run_depend>rosserial_server</run_depend>
-  <run_depend>rosserial_python</run_depend>
-  <run_depend>um6</run_depend>
+  <build_depend>roslaunch</build_depend>
+
+  <exec_depend>microstrain_3dmgx2_imu</exec_depend>
+  <exec_depend>diagnostic_aggregator</exec_depend>
+  <exec_depend>grizzly_base</exec_depend>
+  <exec_depend>grizzly_description</exec_depend>
+  <exec_depend>nmea_comms</exec_depend>
+  <exec_depend>nmea_navsat_driver</exec_depend>
+  <exec_depend>robot_upstart</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>rosserial_server</exec_depend>
+  <exec_depend>rosserial_python</exec_depend>
+  <exec_depend>um6</exec_depend>
+
+  <export>
+  </export>
 </package>
-
-

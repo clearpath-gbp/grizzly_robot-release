@@ -1,12 +1,20 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(grizzly_bringup)
 
-find_package(catkin)
+find_package(catkin REQUIRED COMPONENTS roslaunch)
 
 catkin_package()
 
-install(DIRECTORY launch config
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+roslaunch_add_file_check(launch/accessories.launch)
 
-install(PROGRAMS scripts/install
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+install(DIRECTORY launch
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+
+install(FILES scripts/can-udp-bridge.conf
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+
+install(PROGRAMS scripts/install scripts/can_up.sh
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
