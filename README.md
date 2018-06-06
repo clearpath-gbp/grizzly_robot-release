@@ -1,3 +1,29 @@
+## grizzly_robot (kinetic) - 0.3.0-0
+
+The packages in the `grizzly_robot` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release grizzly_robot -t kinetic -r kinetic --new-track` on `Wed, 06 Jun 2018 21:38:51 -0000`
+
+These packages were released:
+- `grizzly_base`
+- `grizzly_bringup`
+- `grizzly_robot`
+
+Version of package(s) in repository `grizzly_robot`:
+
+- upstream repository: https://github.com/g/grizzly_robot.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.3`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## grizzly_robot (indigo) - 0.2.1-0
 
 The packages in the `grizzly_robot` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo grizzly_robot` on `Sat, 17 Oct 2015 04:21:22 -0000`
