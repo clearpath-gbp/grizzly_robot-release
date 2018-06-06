@@ -1,8 +1,0 @@
-<!--
-Launch driver components of Grizzly's supported accessories.
-
-Be careful that the defaults in this file are kept aligned with those
-in the URDF. See grizzly_description/urdf/accessories.urdf.xacro.
--->
-<launch>
-</launch>
