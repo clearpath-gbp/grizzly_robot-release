@@ -2,6 +2,9 @@
 Changelog for package grizzly_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.1 (2018-06-21)
+------------------
+
 0.3.0 (2018-06-06)
 ------------------
 * Updated Udev, maintainer and CAN bridge interface.
