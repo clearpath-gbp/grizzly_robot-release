@@ -1,0 +1,12 @@
+Source: ros-kinetic-grizzly-robot
+Section: misc
+Priority: extra
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-grizzly-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-grizzly-base, ros-kinetic-grizzly-bringup, ros-kinetic-grizzly-firmware
+Description: Metapackage for Grizzly robot computers.
