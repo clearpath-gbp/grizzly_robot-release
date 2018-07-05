@@ -1,3 +1,0 @@
-<launch>
-  <include file="$(find pointgrey_camera_driver)/launch/bumblebee.launch"/>
-</launch>
