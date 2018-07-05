@@ -1,0 +1,10 @@
+<launch>
+  <node pkg="velodyne_driver" type="velodyne_node" name="velodyne_driver">
+    <param name="model" value="32E"/>
+    <param name="device_ip" value="$(optenv GRIZZLY_HDL32_IP 192.168.130.20)"/>
+  </node>
+
+  <node pkg="velodyne_pointcloud" type="cloud_node" name="velodyne_pointcloud"/>
+</launch>
+
+
