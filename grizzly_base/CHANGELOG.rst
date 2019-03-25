@@ -2,6 +2,11 @@
 Changelog for package grizzly_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.6 (2019-03-25)
+------------------
+* Fixing diagnostic updater to work with mcu/status message
+* Contributors: Guy Stoppi
+
 0.3.5 (2018-07-05)
 ------------------
 * [grizzly_base] Updated GPS indicator topic.
